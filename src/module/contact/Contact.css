@@ -1,3 +1,6 @@
+.contact-container {
+  overflow-x: hidden;
+}
 .background-img1 {
   background-image: url(https://cdn.shopify.com/s/files/1/0726/1221/7115/files/ecom-no-replace-2RgmJOxbvBbg-hr-search.png);
   /* background-repeat: no-repeat; */
@@ -8,6 +11,8 @@
   height: 100vh;
 }
 .back-image-text {
+  position: relative;
+  bottom: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,15 +41,19 @@
   background-color: black;
   color: white;
   margin: 3px;
-  padding: 4%;
-  width: 40%;
+  height: 4rem;
+  /* padding: 4%; */
+  width: 10rem;
   text-align: center;
   border-radius: 50px;
   font-size: 22px;
 }
 .main-features {
   display: flex;
+  position: relative;
+  bottom: 14rem;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
   margin: auto;
 }
@@ -158,13 +167,10 @@
     align-items: center;
   }
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 680px) {
   .main-features {
-    display: block;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
-    overflow-x: hidden;
+    position: relative;
+    bottom: -100px;
   }
 
   .features-text-btn {
@@ -172,5 +178,16 @@
   }
   .feature1 {
     border: 1px solid rgb(44, 39, 39);
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .feature1 {
+    width: 100vw;
+
+    /* display: block; */
+    /* width: 100%; */
+    /* align-items: center; */
+    /* margin: auto; */
   }
 }
