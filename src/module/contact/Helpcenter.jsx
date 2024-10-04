@@ -7,7 +7,7 @@ const HelpCenter = () => {
       {" "}
       <div className="back-image-text">
         <div style={{ color: "white" }}>
-          <h1 style={{ fontSize: "48px" }}>HELP CENTER</h1>
+          <h1 style={{ fontSize: "48px", textAlign: "center" }}>HELP CENTER</h1>
           <p
             style={{
               fontSize: "16px",

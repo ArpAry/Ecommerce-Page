@@ -138,7 +138,6 @@
 .shopping-item-container {
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap;
   /* position: relative; */
   /* margin: 3rem; */
 }
@@ -188,6 +187,9 @@
     justify-content: center;
     align-items: center;
     margin: auto;
+  }
+  .shopping-item-container {
+    flex-wrap: wrap;
   }
   .shopping-item-image {
     display: block;

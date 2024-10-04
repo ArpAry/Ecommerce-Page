@@ -6,7 +6,7 @@
 .image1-head {
   background-image: url(/src/assets/bolg1.png);
   width: 60vw;
-  height: 47rem;
+  /* height: 47rem; */
   background-size: cover;
   background-repeat: no-repeat;
   margin: 2%;
@@ -94,20 +94,6 @@
   font-size: 30px;
   font-weight: lighter;
 }
-/* @media only screen and (max-width: 0px) {
-  .blog-head {
-    display: block;
-  }
-  .image1-head {
-    flex: 1;
-    padding: 1rem;
-    overflow-x: hidden;
-  }
-  .image-right-container {
-  }
-  .image2-head {
-  }
-} */
 
 @media only screen and (max-width: 830px) {
   .blog-head-container {
@@ -121,8 +107,22 @@
   }
   .image1-head {
     width: 98vw;
-    margin: 0px;
     margin: 1vw;
+    background-image: url(/src/assets/bolg1.png);
+    background-size: cover;
+    border-radius: 10px;
+    height: 330px;
+  }
+  .fashion-class-text {
+    font-size: 14px;
+  }
+  .head-image1-text-container,
+  .image1-text-review {
+    position: relative;
+    top: 3rem;
+    font-size: 25px;
+    width: 80%;
+    font-weight: bolder;
   }
 
   /* .image-right-container {

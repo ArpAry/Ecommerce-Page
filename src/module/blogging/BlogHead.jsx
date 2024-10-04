@@ -10,12 +10,12 @@ const BlogHead = () => {
         <div className="image1-head">
           <div className="head-image1-text-container">
             <div>
-              <h3>FASHION</h3>
+              <h3 className="fashion-class-text">FASHION</h3>
             </div>
             <div>
-              <h1 className="image1-text-review">
+              <div className="image1-text-review">
                 Here’s what’s new in your favourite stores & online this week...
-              </h1>
+              </div>
             </div>
           </div>
         </div>

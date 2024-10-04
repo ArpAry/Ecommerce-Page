@@ -26,7 +26,7 @@ const Fashion = () => {
         <div className="spotlight-about-container">
           <p className="spotlight-item-text1">Admin Dinh / May 9, 2023</p>
           <h1 className="spotlight-item-text2">
-            Travel Tales and Cultural Immersion{" "}
+            Travel Tales and Cultural Immersion
           </h1>
           <p className="spotlight-item-text3">
             Forget the tourist hotspots and explore the road less traveled as we
