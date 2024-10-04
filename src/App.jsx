@@ -26,6 +26,7 @@ function App() {
 
             {/* Route Definitions */}
             <Routes>
+              <Route path="/" element={<Blogging />} />
               <Route path="/blog-listing" element={<Blogging />} />
               <Route path="/contact" element={<Contact />} />
             </Routes>
