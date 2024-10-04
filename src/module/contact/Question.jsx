@@ -6,7 +6,6 @@ const Question = () => {
   return (
     <div>
       <div
-        class="text-container"
         style={{
           textAlign: "center",
           paddingTop: "80px",

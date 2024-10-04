@@ -7,16 +7,20 @@ import Contact from "./components/contact/Contact";
 function App() {
   return (
     <>
-      <div className="app-container">
+      <div>
         <Router>
           <div>
             {/* Navigation Links */}
             <nav className="app-container">
               <li>
-                <Link to="/blog-listing">Blog Listing</Link>
+                <Link className="link-name" to="/blog-listing">
+                  Blog Listing
+                </Link>
               </li>
               <li>
-                <Link to="/contact">Contact</Link>
+                <Link className="link-name" to="/contact">
+                  Contact
+                </Link>
               </li>
             </nav>
 

@@ -20,7 +20,7 @@ const AnyOtherQuestions = () => {
       <div className="any-other-questions-container">
         {/* 1 */}
         {anyotherquestions.map((element, ind) => (
-          <div className="any-other-questions-item">
+          <div key={ind} className="any-other-questions-item">
             <img
               src={element.image}
               alt={ind + 1}

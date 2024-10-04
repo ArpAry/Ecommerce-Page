@@ -25,13 +25,7 @@ const Footer = () => {
               type="search"
               placeholder="Email address"
             />
-            <input
-              type="button"
-              value={"Sign Up "}
-              Sign
-              Up
-              className="signup-btn"
-            />
+            <input type="button" value={"Sign Up "} className="signup-btn" />
           </div>
         </div>
         {/* 2 */}

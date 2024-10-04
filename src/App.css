@@ -10,5 +10,22 @@ body {
 }
 .app-container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  text-decoration: none;
+  /* flex-direction: column; */
+}
+/* 
+.app-container {
+  display: flex;
+} */
+.link-name {
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+}
+
+.link-name:hover {
+  color: blue;
 }
