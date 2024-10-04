@@ -1,0 +1,146 @@
+.blog-head {
+  display: flex;
+  /* margin: 5px; */
+}
+
+.image1-head {
+  background-image: url(/src/assets/bolg1.png);
+  width: 60vw;
+  height: 47rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 2%;
+  border-radius: 10px;
+}
+/* .image1-head {
+  transform: scale();
+} */
+.head-image1-text-container {
+  color: white;
+  margin-left: 3rem;
+  position: relative;
+  top: 15rem;
+  font-size: 10px;
+  font-style: normal;
+}
+.image-right-container {
+  position: relative;
+  /* top: 3rem; */
+  width: 30rem;
+}
+.image2-head {
+  background-color: rgb(104, 175, 63);
+  height: 18rem;
+  width: 35vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 1rem;
+  border-radius: 10px;
+  transition-duration: 1s;
+}
+.image2-head:hover {
+  transform: scale(1.05); /* zoom on hover */
+}
+.image3-head {
+  background-image: url(/src/assets/blog2.png);
+  height: 28rem;
+  width: 35vw;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 1rem;
+  background-repeat: no-repeat;
+  transition-duration: 1s;
+}
+
+.image3-head:hover {
+  transform: scale(1.05); /* zoom on hover */
+}
+
+.image1-text-review {
+  position: relative;
+  top: 2rem;
+  font-size: 4rem;
+  font-weight: lighter;
+  width: 25rem;
+}
+.image1-btn {
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.arrow-icon {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 15px solid white; /* Arrow color */
+}
+.image2-text-container {
+  width: 90%;
+  height: 100%;
+  position: relative;
+  top: 2rem;
+  margin: auto;
+  /* margin-left: 1.5rem; */
+  font-weight: lighter;
+}
+
+.image3-text-container {
+  width: 90%;
+  color: white;
+  position: relative;
+  top: 15rem;
+  margin-left: 1.5rem;
+  font-size: 30px;
+  font-weight: lighter;
+}
+/* @media only screen and (max-width: 0px) {
+  .blog-head {
+    display: block;
+  }
+  .image1-head {
+    flex: 1;
+    padding: 1rem;
+    overflow-x: hidden;
+  }
+  .image-right-container {
+  }
+  .image2-head {
+  }
+} */
+
+@media only screen and (max-width: 830px) {
+  .blog-head-container {
+    display: block;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .blog-head {
+    display: block;
+    width: 100%;
+  }
+  .image1-head {
+    width: 98vw;
+    margin: 0px;
+    margin: 1vw;
+  }
+
+  /* .image-right-container {
+    position: relative;
+    top: ;
+  } */
+  .image2-head {
+    width: 98vw;
+    margin: 0px;
+    margin: 1vw;
+  }
+  .image3-head {
+    width: 98vw;
+    margin: 0px;
+    margin: 1vw;
+  }
+  .image2-head:hover,
+  .image3-head:hover {
+    transform: scale(1); /* zoom on hover */
+  }
+}

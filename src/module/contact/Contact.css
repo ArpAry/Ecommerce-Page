@@ -1,0 +1,159 @@
+.background-img1 {
+  background-image: url(https://cdn.shopify.com/s/files/1/0726/1221/7115/files/ecom-no-replace-2RgmJOxbvBbg-hr-search.png);
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  opacity: 0.9;
+  height: 100vh;
+}
+.back-image-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8rem;
+}
+.search-container {
+  /* width: 45rem; */
+  margin-top: 3rem;
+  height: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 100px;
+}
+.search-text {
+  /* width: 35rem; */
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 30px;
+}
+.search-btn {
+  background-color: black;
+  color: white;
+  margin: 3px;
+  padding: 15px;
+  width: 9rem;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 22px;
+}
+.main-features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feature1 {
+  background-color: white;
+  margin: 2rem;
+  width: 30%;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+.features-text1 {
+  margin: 5px;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+}
+
+.features-text2 {
+  font-size: 14px;
+  color: #848484;
+  margin-bottom: 25px;
+}
+.features-text-btn {
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bolder;
+  height: 2.5rem;
+  border-radius: 40px;
+  width: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* flex-direction: column; */
+}
+.help-desk {
+  /* color: aqua; */
+  margin-top: 30px 0px;
+}
+.help-desk-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.help-item {
+  flex: 1 1 calc(25% - 10px); /* Each item takes up 33.33% of the container's width */
+  margin: 10px 18px;
+  height: 100px;
+  background-color: #f2f2f2; /* Example background color */
+  padding-top: 40px;
+  padding-left: 50px;
+  text-align: left;
+  height: 220px;
+  border-radius: 20px;
+}
+
+.edit-accodian {
+  width: 98%;
+  margin: auto;
+}
+.accordian-summary {
+  height: 100px;
+  margin-left: 25px;
+  font-size: 22px;
+  color: #373737;
+  font-weight: 500;
+}
+.any-other-questions-container {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 85vw;
+  padding: 3rem 0px;
+  border: 1px solid rgb(174, 174, 174);
+  border-radius: 25px;
+}
+.any-other-questions-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 0rem 50px;
+  border-right: 1px solid rgb(174, 174, 174);
+}
+.any-other-questions-item:last-child {
+  border: none;
+}
+
+.feature-text-options {
+  font-size: 20px;
+  text-decoration: underline;
+}
+.feature-text-options:hover {
+  color: #f76161;
+}
+.features-text-btn:hover {
+  background-color: grey;
+  color: #f6f6f6;
+}
+
+@media only screen and (max-width: 1254px) {
+  .any-other-questions-container {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+  }
+}

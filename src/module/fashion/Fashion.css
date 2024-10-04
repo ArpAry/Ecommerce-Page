@@ -1,0 +1,198 @@
+.fashion {
+  margin-bottom: 4rem;
+}
+.fashion-class-head {
+  display: flex;
+  justify-content: flex-start;
+  margin: 2rem 2rem;
+}
+.fashion-text {
+  font-size: 50px;
+  font-weight: lighter;
+}
+.main-items-container {
+  display: flex;
+  justify-content: center;
+}
+.main-item {
+  margin: 2rem;
+  padding-right: 2rem;
+  width: 45%;
+}
+.side-item {
+  margin: 2rem 2rem;
+  display: flex;
+  /* justify-content: center; */
+}
+.main-item-1-head {
+  display: flex;
+
+  /* justify-content; */
+}
+.main-item-text1 {
+  margin-top: 15px;
+  margin-right: 10px;
+  color: rgb(22, 9, 9);
+  font-weight: 800;
+}
+/* .main-item-text2 {
+} */
+.main-item-text3 {
+  margin-top: 10px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.main-item-text4 {
+  color: rgb(109, 110, 110);
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+.main-item-text5 {
+  margin-right: 20px;
+  padding: 6px 8px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 500;
+}
+.right-items {
+  margin-left: 10px;
+  width: 55%;
+}
+.right-item-text1 {
+  color: rgb(22, 9, 9);
+  font-weight: 700;
+}
+.side-text-item2 {
+  margin: 10px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  /* margin-bottom: 15px; */
+}
+
+.side-item-text3 {
+  color: rgb(109, 110, 110);
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+.spotlight-container {
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+  text-align: center; /* Center text */
+  position: relative;
+  margin-bottom: 12rem;
+}
+.spotlight-text-container {
+  background-color: rgb(176, 176, 176);
+  width: 80%;
+  /* height: 50px; */
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border-radius: 100px 100px 0px 0px;
+}
+.spotlight-text {
+  font-size: 50px;
+  font-weight: 450;
+}
+.spotlight-image-container {
+  background-image: url("https://cdn.shopify.com/s/files/1/0726/1221/7115/articles/img-bl-12_1100x.png?v=1683625677");
+  background-size: cover;
+  width: 95%;
+  height: 38rem;
+  background-position: center 0px;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  position: relative;
+}
+
+.spotlight-about-container {
+  position: absolute;
+  /* position: relative; */
+  background-color: white;
+  top: 32rem;
+  border-radius: 10px;
+  width: 60%;
+  /* border: 2px solid black; */
+  padding: 2.5rem;
+}
+
+.spotlight-item-text1 {
+  color: rgb(22, 9, 9);
+  font-weight: 500;
+}
+
+.spotlight-item-text2 {
+  font-weight: 550;
+  margin: 10px 0px 20px 0px;
+}
+
+.spotlight-item-text3 {
+  width: 83%;
+  margin: auto;
+  /* text-align: center; */
+  font-size: 0.9rem;
+  color: rgb(98, 97, 97);
+  margin-bottom: 25px;
+}
+.shopping-item-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* position: relative; */
+  /* margin: 3rem; */
+}
+
+.shopping-item-image {
+  background-image: url("https://cdn.shopify.com/s/files/1/0726/1221/7115/articles/img-bl-11_720x.png?v=1683625649");
+  width: 90%;
+  margin: auto;
+  height: 280px;
+  background-size: cover;
+  border-radius: 10px;
+  position: relative;
+}
+.shopping-items {
+  position: absolute;
+}
+.shop-items-text {
+  margin: 2rem;
+}
+.shopping-text-item2 {
+  margin: 10px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  /* margin-bottom: 15px; */
+}
+
+.shopping-item-text3 {
+  color: rgb(109, 110, 110);
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+.subscribe-btn-blog:hover {
+  background-color: gray;
+}
+.shopping-item-text3:hover,
+.spotlight-item-text3:hover,
+.main-item-text4:hover,
+.side-item-text3:hover {
+  color: #f76161;
+}
+
+@media only screen and (max-width: 1254px) {
+  .main-item {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .shopping-item-image {
+    display: block;
+    flex-direction: column;
+
+    align-items: center;
+  }
+}
